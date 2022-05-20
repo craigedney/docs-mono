@@ -1,37 +1,7 @@
 ---
-sidebar_position: 13 
-title: 13 File System 
-description: fs and path modules
----
-
-## Contents
-
-* [File Paths (1)](#file-paths-1)
-* [File Paths (2)](#file-paths-2)
-* [Reading and Writing (1)](#)
-* [Reading and Writing (2)](#)
-* [Reading and Writing (3)](#)
-* [File Streams](#)
-* [Reading Directories (1)](#)
-* [Reading Directories (2)](#)
-* [File Metadata (1)](#)
-* [File Metadata (2)](#)
-* [Watching (1)](#)
-* [Watching (2)](#)
-
-## Overview
-
-* JavaScript was a client-side language, so has no built-in primitives for interacting with the file system.
-* The ability to manipulate the file system is central to server-side programming.
-* NodeJS provides the `fs` and `path` modules to achieve this.
-
-## Learning Objectives
-
-* Understand path manipulation in Node.
-* Query files and directories for meta-data and permissions controls.
-* Dynamically respond to file system changes.
-* Discover various ways to write files and read files and directories.
-
+sidebar_position: 2
+title: File Paths
+description: file paths 1 & 2
 ---
 
 ## File Paths (1)
@@ -136,45 +106,5 @@ calculated with the path.dirname and path.basename methods respectively.
 
 This section has provided an overview with focus on common usage. Refer to the Node core path Documentation to learn
 more.
-
----
-
-## Reading and Writing (1)
-
----
-
-## Reading and Writing (2)
-
----
-
-## Reading and Writing (3)
-
----
-
-## File Streams
-
----
-
-## Reading Directories (1)
-
----
-
-## Reading Directories (2)
-
----
-
-## File Metadata (1)
-
----
-
-## File Metadata (2)
-
----
-
-## Watching (1)
-
----
-
-## Watching (2)
 
 ---
